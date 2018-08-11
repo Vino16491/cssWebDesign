@@ -71,10 +71,9 @@ body {
     font-weight: bold;
 }
 
-.main-nav__item a:hover {
-    color: white;
-}
+/* grouping rules */
 
+.main-nav__item a:hover,
 .main-nav__item a:active {
     color: white;
 }
