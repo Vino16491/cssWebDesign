@@ -44,7 +44,6 @@ body {
     background-color: #19b84c;
     color: white;
     box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
-    
 }
 
 .plan__annotation {
@@ -55,16 +54,52 @@ body {
     border-radius: 8px;
 }
 
-.plan__features{
+.plan__title {
+    color: #0e4f1f;
+}
+
+.plan__price {
+    color: #858585
+}
+
+.plan--higlighted .plan__price {
+    color: #0e4f1f;
+}
+
+.plan--higlighted .plan__title {
+    color: white;
+}
+
+.plan__features {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.plan__feature{
+.plan__feature {
     margin: 8px 0;
 }
 
+.plan__button {
+    background: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.plan__button:hover,
+.plan__button:active {
+    background-color: white;
+    color: #0e4f1f;
+}
+
+.plan__button:focus {
+    outline: none;
+}
 
 .main-header {
     width: 100%;
