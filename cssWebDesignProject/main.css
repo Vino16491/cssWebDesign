@@ -40,6 +40,15 @@ body {
     vertical-align: middle;
 }
 
+.plan--higlighted{
+    background-color: #19b84c;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+
+
+
 .main-header {
     width: 100%;
     background: #2ddf5c;
