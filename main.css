@@ -8,7 +8,7 @@ body {
 }
 
 #product-overview {
-    background: #ff1b68;
+    background: url("freedom.jpg");
     width: 100%;
     height: 528px;
     padding: 5px;
@@ -24,7 +24,7 @@ body {
 } */
 
 #product-overview h1 {
-    background: #ff1b68;
+    /* background: #ff1b68; */
     color: white;
     font-family: 'Anton', sans-serif;
 }
