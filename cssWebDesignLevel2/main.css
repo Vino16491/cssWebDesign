@@ -17,7 +17,7 @@ a {
 a.active {
     color: purple;
 }
-
+/* not psuedo class */
 a:not(.active) {
     color: blue;
 }
