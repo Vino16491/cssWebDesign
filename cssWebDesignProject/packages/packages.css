@@ -12,7 +12,7 @@ main {
 .plan-packages:hover,
 .plan-packages:active {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    border: #f36969;
+    border-color: #f36969;
 }
 
 .plus-plan {
@@ -28,6 +28,7 @@ main {
     float: right;
     border-left: 4px solid #0e4f1f;
     border-right: none;
+    text-align: right;
 }
 
 .clear-fix {
