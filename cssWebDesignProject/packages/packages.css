@@ -15,6 +15,7 @@ main {
     margin: 16px 0;
     width: 80%;
     border-left: none;
+    z-index: 100;
 }
 
 .plan-packages:hover,
