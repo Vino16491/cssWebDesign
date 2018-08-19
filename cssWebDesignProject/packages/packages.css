@@ -15,7 +15,19 @@ main {
     margin: 16px 0;
     width: 80%;
     border-left: none;
-    z-index: 100;
+    z-index: 0;
+    position: relative;
+}
+
+.plan-package__badge {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 20px;
+    font-size: 12px;
+    color: white;
+    background: #ff5454;
+    padding: 10px;
 }
 
 .plan-packages:hover,
@@ -79,7 +91,7 @@ main {
 }
 
 .plan-package__subTitle {
-    color: #979797;
+    color: #232323f7;
     font-size: 16px;
     padding: 8px 16px;
     font-weight: bold;
