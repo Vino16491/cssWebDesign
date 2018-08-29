@@ -28,6 +28,7 @@ main {
     color: white;
     background: #ff5454;
     padding: 10px;
+    border-radius: 5px;
 }
 
 .plan-packages:hover,
@@ -57,7 +58,7 @@ main {
 }
 
 .plan-packages.free-plan {
-    background: #90ee908a
+    background: #90ee90e6
 }
 
 .premium-plan {
